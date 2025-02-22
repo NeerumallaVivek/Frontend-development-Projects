@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Bucket List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>My Bucket List</h1>
+    </header>
+
+    <main>
+        <section class="bucket-list">
+            <h2>Things I Want to Do</h2>
+            <ul class="list">
+                <li onclick="toggleComplete(this)"><i class="1"></i> Build a new Home</li>
+                <li onclick="toggleComplete(this)"><i class="2"></i> Travel to Dubai</li>
+                <li onclick="toggleComplete(this)"><i class="3"></i> Climb a mountain</li>
+                <li onclick="toggleComplete(this)"><i class="4"></i> Travel to Japan</li>
+                <li onclick="toggleComplete(this)"><i class="5"></i> Write a book</li>
+                <li onclick="toggleComplete(this)"><i class="6"></i> buy a new car</li>
+                <li class="completed" onclick="toggleComplete(this)"><i class="7"></i> Learn a new language</li>
+                <li class="completed" onclick="toggleComplete(this)"><i class="8"></i> Run a marathon</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Bucket List</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
