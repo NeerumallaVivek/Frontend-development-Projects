@@ -1,0 +1,7 @@
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll(".add-to-cart").forEach(button => {
+        button.addEventListener("click", function() {
+            alert("Product added to cart!");
+        });
+    });
+});
